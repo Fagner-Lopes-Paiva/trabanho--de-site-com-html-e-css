@@ -1,0 +1,119 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+#logo-amil {
+    justify-content: center;
+    width: 92px;
+}
+.header {
+    display: flex;
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    justify-content: center;
+}
+.baner-do-cabecalho {
+    height: 150px;
+}
+.content {
+    background-color: white;
+    display: flex;
+    min-height: 300px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.comteiner-da-imagem-e-h {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px;
+}
+.comteiner-da-imagem-e-h > div {
+    display: flex;
+    justify-content: center;
+}
+.comteiner-da-imagem-e-h > div > button {
+    background-color: #411DF5;
+    color: white;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-block: 5px;
+}
+.footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+.footer > #amil-rodape {
+    border-bottom: 1px solid black;
+    padding-left: 450px;
+    padding-right: 450px;
+    margin-bottom: 10px;
+}
+.footer > h2 {
+    color: white;
+}
+.footer > p {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.link-aplicativo-rodape {
+    justify-content: center;
+    width: 170px;
+}
+#lista-nao-ordernada-rodape {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#conteiner-rodape {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+#lista-nao-ordernada-rodape > li {
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+#lista-nao-ordernada-rodape > li > a {
+    color: white;
+    text-decoration: none;
+}
